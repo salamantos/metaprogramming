@@ -49,7 +49,7 @@ public:
 
 int main() {
     Reader<int, int, float, std::string> reader;
-    auto array = reader.ReadCSV("../input.txt");
+    auto array = reader.ReadCSV("../input.csv");
 
     std::cout << "File: " << std::endl;
     for (auto& tuple: array) {
